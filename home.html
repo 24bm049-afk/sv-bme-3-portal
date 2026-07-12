@@ -1,0 +1,40 @@
+<!DOCTYPE html>                       
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home · Student Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-body">
+
+  <header class="topbar">
+  <h1>Welcome back!</h1>
+  <div>
+    <a href="calendar.html" class="nav-link">Academic Calendar</a>
+    <button id="logout-btn">Log Out</button>
+  </div>
+</header>
+
+  <main>
+    <p id="welcome-text">This is your student home page.</p>
+
+    <h2>Weekly Timetable</h2>
+
+<div class="day-buttons">
+  <button class="day-btn" data-day="Monday">Mon</button>
+  <button class="day-btn" data-day="Tuesday">Tue</button>
+  <button class="day-btn" data-day="Wednesday">Wed</button>
+  <button class="day-btn" data-day="Thursday">Thu</button>
+  <button class="day-btn" data-day="Friday">Fri</button>
+  <button class="day-btn" data-day="Saturday">Sat</button>
+</div>
+
+<ul class="schedule-list" id="timetable-container">
+  <!-- periods get filled in here automatically by script.js -->
+</ul>
+  </main>
+
+  <script src="script.js"></script> 
+</body>
+</html>

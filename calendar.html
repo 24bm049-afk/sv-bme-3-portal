@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Calendar · Student Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-body">
+
+  <header class="topbar">
+    <h1>Academic Calendar</h1>
+    <div>
+      <a href="home.html" class="nav-link">← Back to Home</a>
+      <button id="logout-btn">Log Out</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="calendar-nav">
+      <button id="prev-month">← Prev</button>
+      <h2 id="month-label">July 2026</h2>
+      <button id="next-month">Next →</button>
+    </div>
+
+    <div class="calendar-legend">
+      <span class="legend-item"><span class="dot holiday"></span> Holiday</span>
+      <span class="legend-item"><span class="dot exam"></span> Exam</span>
+      <span class="legend-item"><span class="dot meeting"></span> Meeting</span>
+      <span class="legend-item"><span class="dot event"></span> Event</span>
+      <span class="legend-item"><span class="dot vacation"></span> Vacation</span>
+    </div>
+
+    <div class="calendar-grid" id="calendar-grid">
+      <!-- filled in automatically by script.js -->
+    </div>
+
+    <div id="event-details" class="event-details"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
