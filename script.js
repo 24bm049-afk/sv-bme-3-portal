@@ -148,7 +148,7 @@ const timetableData = {
     { code: "U21BM502", subject: "Biosignal Processing", faculty: "Dr. Ragupathy / Ms. R. Monisha" }
   ],
   Friday: [
-    { code: "TT", subject: "Technical Training", faculty: "Mr. R. Yoganathan" },
+   { code: "PT", subject: "Placement Training", faculty: "Mr. R. Yoganathan / Ms. M. Nivethitha" },
     { code: "U21BMP10", subject: "Medical Device Design", faculty: "Dr. N. Rajasingam" },
     { code: "U21BM501", subject: "Microcontroller and its Applications", faculty: "Dr. A. Allwyn Gnanadas" },
     { code: "U21BMP06 / U21BMP25", subject: "Bioprinting / Internet of Medical Things", faculty: "Dr. T. Gayathri / Dr. K.S. Tamilselvan" },
@@ -157,14 +157,14 @@ const timetableData = {
     { code: "LH", subject: "Library Hour", faculty: "Dr. P. Arunkumar" }
   ],
   Saturday: [
-    { code: "U21BM505", subject: "Biocontrol Systems", faculty: "Dr. N. Rajasingam" },
-    { code: "U21BM501", subject: "Microcontroller and its Applications", faculty: "Dr. A. Allwyn Gnanadas" },
-    { code: "-", subject: "Activity", faculty: "-" },
-    { code: "-", subject: "Activity", faculty: "-" },
-    { code: "-", subject: "Activity", faculty: "-" },
-    { code: "-", subject: "Activity", faculty: "-" },
-    { code: "-", subject: "Activity", faculty: "-" }
-  ]
+  { code: "U21BM505", subject: "Biocontrol Systems", faculty: "Dr. N. Rajasingam" },
+  { code: "U21BM501", subject: "Microcontroller and its Applications", faculty: "Dr. A. Allwyn Gnanadas" },
+  { code: "U21BMP06 / U21BMP25", subject: "Bioprinting / Internet of Medical Things", faculty: "Dr. T. Gayathri / Dr. K.S. Tamilselvan" },
+  { code: "U21BMP11 / U21BMP14", subject: "QMAH / Healthcare Data Analytics", faculty: "Dr. D. Sudarvizhi / Dr. P. Arunkumar" },
+  { code: "-", subject: "Activity", faculty: "-" },
+  { code: "-", subject: "Activity", faculty: "-" },
+  { code: "-", subject: "Activity", faculty: "-" }
+],
 };
 
 const timetableContainer = document.getElementById("timetable-container");
